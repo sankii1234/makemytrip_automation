@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="project Cognizant : MakeMyTrip">
+	<listeners>
+			<listener class-name="com.Testcases.Transformation" />
+	</listeners>
+	<test name="cognizant excel problemTwo testCase">
+		
+		<classes>
+			<class name="com.Testcases.AvailabilityCheck"></class>
+		</classes>
+	
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
